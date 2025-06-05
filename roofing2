@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get More Roofing Jobs - Limited Time Offer!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons (optional, if you want to add stars easily) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff; /* White background */
+        }
+        .gradient-button {
+            background-image: linear-gradient(to right, #f59e0b, #ef4444); /* Amber-500 to Red-500 */
+        }
+        .gradient-button:hover {
+            background-image: linear-gradient(to right, #d97706, #dc2626); /* Amber-600 to Red-600 */
+        }
+        .video-placeholder {
+            background-color: #e5e7eb; /* Gray-200 */
+            border: 4px dashed #9ca3af; /* Gray-400 */
+            aspect-ratio: 16/9;
+        }
+        .form-input {
+            @apply w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-150 ease-in-out;
+        }
+        .form-label {
+            @apply block text-sm font-medium text-gray-700 mb-1;
+        }
+        /* Custom shadow for a bit more pop */
+        .card-shadow {
+             box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gray-900 text-white py-4 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 lg:px-8">
+            <div class="flex items-center space-x-3 mb-3 md:mb-0">
+                <!-- Logo Placeholder -->
+                <img src="https://placehold.co/150x50/ffffff/1f2937?text=YourLogoHere" alt="Roofing Company Logo" class="h-10">
+                <span class="text-sm font-semibold uppercase bg-red-500 px-3 py-1 rounded-md">Limited Time Offer</span>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="text-sm md:text-base">Tired of Inconsistent Leads? We Can Help!</p>
+                <p class="text-xs text-gray-300">Exclusive Offer for Roofing Contractors in [Your Area]</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-12 md:py-20">
+        <div class="container mx-auto px-4 lg:px-8 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
+                ATTENTION ROOFING CONTRACTORS:
+            </h1>
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-red-600 mb-6">
+                "Fill Your Calendar With High-Quality, EXCLUSIVE Roofing Leads... Starting This Week!"
+            </h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+                Stop relying on shared leads or unpredictable referrals. Discover how our proven system generates a consistent flow of homeowners actively looking for YOUR roofing services.
+            </p>
+
+            <!-- Video Placeholder -->
+            <div class="max-w-3xl mx-auto mb-10 rounded-lg overflow-hidden card-shadow">
+                 <div class="video-placeholder flex items-center justify-center">
+                    <span class="text-gray-500 text-xl font-semibold">Your Explainer Video Here</span>
+                    <!-- Example of how to embed a YouTube video:
+                    <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/your_video_id_here" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    -->
+                </div>
+            </div>
+
+            <!-- Call to Action Button -->
+            <a href="#booking-form" class="gradient-button text-white font-bold py-4 px-8 md:px-12 rounded-lg text-xl md:text-2xl shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-105 inline-block">
+                Book Your FREE Strategy Call Now!
+                <span class="block text-sm opacity-90">(Valued at $297)</span>
+            </a>
+            <p class="mt-4 text-gray-600 text-sm">Spots are limited. Claim your free call today!</p>
+        </div>
+    </section>
+
+    <!-- "As Seen On" or Credibility Bar (Optional) -->
+    <section class="py-8 bg-gray-800">
+        <div class="container mx-auto px-4 lg:px-8">
+            <p class="text-center text-gray-400 text-sm font-semibold uppercase tracking-wider">Trusted by Roofing Professionals Like You</p>
+            <!-- Placeholder for partner logos -->
+            <div class="flex justify-center items-center space-x-8 md:space-x-12 mt-4 opacity-75">
+                <img src="https://placehold.co/100x40/9ca3af/ffffff?text=Partner+1" alt="Partner Logo 1" class="h-8 md:h-10">
+                <img src="https://placehold.co/100x40/9ca3af/ffffff?text=Partner+2" alt="Partner Logo 2" class="h-8 md:h-10">
+                <img src="https://placehold.co/100x40/9ca3af/ffffff?text=Partner+3" alt="Partner Logo 3" class="h-8 md:h-10">
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Get / How It Works Section -->
+    <section class="py-12 md:py-20 bg-white">
+        <div class="container mx-auto px-4 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">What Happens After You Book Your Call?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <!-- Step 1 -->
+                <div class="bg-gray-50 p-6 rounded-xl card-shadow transition-transform duration-300 hover:scale-105">
+                    <div class="flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-full mx-auto mb-6 text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Discovery & Strategy</h3>
+                    <p class="text-gray-700">We'll discuss your current marketing, goals, and challenges to understand your unique needs.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-gray-50 p-6 rounded-xl card-shadow transition-transform duration-300 hover:scale-105">
+                    <div class="flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-full mx-auto mb-6 text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Custom Lead Gen Plan</h3>
+                    <p class="text-gray-700">You'll receive a tailored action plan outlining how we can get you exclusive, high-quality roofing leads.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-gray-50 p-6 rounded-xl card-shadow transition-transform duration-300 hover:scale-105">
+                    <div class="flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-full mx-auto mb-6 text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Decision Time (No Pressure!)</h3>
+                    <p class="text-gray-700">If it's a fit, great! If not, you still walk away with valuable insights. No strings attached.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-12 md:py-20 bg-gray-100">
+        <div class="container mx-auto px-4 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">Here's What Other Roofers Are Saying:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl card-shadow">
+                    <div class="flex justify-center mb-3 text-yellow-400">
+                        <!-- Font Awesome Stars -->
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">"We were skeptical at first, but the leads started coming in within the first week! Quality is way better than the shared leads we used to buy."</p>
+                    <p class="font-semibold text-gray-900">Mike R.</p>
+                    <p class="text-sm text-gray-600">Owner, Apex Roofing Solutions</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl card-shadow">
+                     <div class="flex justify-center mb-3 text-yellow-400">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-4">"Finally, a marketing service that actually delivers. Our schedule is booked solid for the next month thanks to these guys."</p>
+                    <p class="font-semibold text-gray-900">Sarah L.</p>
+                    <p class="text-sm text-gray-600">Manager, ProShield Roofing</p>
+                </div>
+                <!-- Testimonial 3 (Can be hidden on smaller screens or if only 2 are preferred) -->
+                <div class="bg-white p-8 rounded-xl card-shadow md:col-span-2 lg:col-span-1">
+                     <div class="flex justify-center mb-3 text-yellow-400">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <!-- Example of 4.5 stars -->
+                    </div>
+                    <p class="text-gray-700 italic mb-4">"The free strategy call alone was worth its weight in gold. They really know the roofing market."</p>
+                    <p class="font-semibold text-gray-900">David P.</p>
+                    <p class="text-sm text-gray-600">Founder, D.P. Exteriors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking-form" class="py-12 md:py-20 bg-gray-800 text-white">
+        <div class="container mx-auto px-4 lg:px-8 max-w-2xl">
+            <div class="bg-white text-gray-900 p-8 md:p-12 rounded-xl card-shadow">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">Claim Your FREE Roofing Lead Strategy Call</h2>
+                <p class="text-center text-gray-600 mb-8">Fill out the form below to secure your spot. We'll contact you to schedule your call.</p>
+                
+                <!-- Form: Ensure you have a backend or service (like Formspree, Netlify Forms, etc.) to handle submissions -->
+                <form action="#" method="POST"> <!-- Replace # with your form processing endpoint -->
+                    <!-- Form fields -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="full-name" class="form-label">Full Name <span class="text-red-500">*</span></label>
+                            <input type="text" name="full-name" id="full-name" autocomplete="name" class="form-input" required>
+                        </div>
+                        <div>
+                            <label for="company-name" class="form-label">Company Name <span class="text-red-500">*</span></label>
+                            <input type="text" name="company-name" id="company-name" class="form-input" required>
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="form-label">Email Address <span class="text-red-500">*</span></label>
+                        <input type="email" name="email" id="email" autocomplete="email" class="form-input" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="phone" class="form-label">Phone Number <span class="text-red-500">*</span></label>
+                        <input type="tel" name="phone" id="phone" autocomplete="tel" class="form-input" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="monthly-budget" class="form-label">What's your current approximate monthly marketing budget?</label>
+                        <select id="monthly-budget" name="monthly-budget" class="form-input">
+                            <option value="">Please select</option>
+                            <option value="<1k">Less than $1,000</option>
+                            <option value="1k-3k">$1,000 - $3,000</option>
+                            <option value="3k-5k">$3,000 - $5,000</option>
+                            <option value="5k+">$5,000+</option>
+                        </select>
+                    </div>
+                    <div class="mb-8">
+                        <label for="biggest-challenge" class="form-label">What's your biggest challenge with getting roofing jobs right now?</label>
+                        <textarea id="biggest-challenge" name="biggest-challenge" rows="3" class="form-input"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full gradient-button text-white font-bold py-4 px-6 rounded-lg text-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
+                            Book My FREE Strategy Call!
+                        </button>
+                    </div>
+                    <p class="text-center text-xs text-gray-500 mt-4">
+                        By submitting this form, you agree to our <a href="#" class="underline hover:text-blue-600">Privacy Policy</a> and <a href="#" class="underline hover:text-blue-600">Terms of Service</a>.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-10 text-sm">
+        <div class="container mx-auto px-4 lg:px-8 text-center">
+            <!-- Footer Logo Placeholder -->
+            <img src="https://placehold.co/120x40/ffffff/1f2937?text=YourLogoHere" alt="Roofing Company Logo" class="h-8 mx-auto mb-4">
+            <p class="mb-2">&copy; <span id="currentYear"></span> Your Company Name. All Rights Reserved.</p>
+            <p class="mb-2">123 Main Street, Anytown, USA 12345</p>
+            <p class="mb-4">
+                <a href="#" class="hover:text-white">Privacy Policy</a> | 
+                <a href="#" class="hover:text-white">Terms of Service</a> |
+                <a href="#booking-form" class="hover:text-white">Contact Us</a>
+            </p>
+            <p class="text-xs">Disclaimer: Results may vary. We don't guarantee specific outcomes, as success depends on various factors including market conditions and your business operations.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        // This script ensures the copyright year is always up-to-date.
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
